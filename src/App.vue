@@ -13,18 +13,18 @@
     </div>
   </header>
 
-  <Snackbar />
+  <SnackBar />
   <RouterView />
 </template>
 
 <script>
 import { RouterLink, RouterView } from 'vue-router';
-import Snackbar from './components/Snackbar.vue';
+import SnackBar from '@/components/SnackBar.vue';
 import LanguageSelector from './components/LanguageSelector.vue';
 import { useI18n } from 'vue-i18n';
 
 export default {
-  components: { RouterLink, RouterView, Snackbar, LanguageSelector },
+  components: { RouterLink, RouterView, SnackBar, LanguageSelector },
   data() {
     return {
       t: useI18n().t,
