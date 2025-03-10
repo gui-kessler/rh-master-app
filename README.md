@@ -11,7 +11,7 @@ _____
 #### Instalação
 
 ```bash
-git clone
+git clone https://github.com/gui-kessler/rh-master-app.git
 cd rh-master-app
 npm install
 npm run build
