@@ -1,0 +1,94 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+main {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+hr.solid {
+  border: 1px solid var(--color-border);
+  margin: 1rem 0 1rem 0;
+}
+
+label.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--vt-c-black);
+  color: var(--color-text);
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.button-primary:hover {
+  background-color: var(--primary-color-hover);
+  color: var(--color-text);
+}
+
+.button-secundary {
+  background-color: var(--vt-c-black);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.button-secundary:hover {
+  background-color: var(--color-hover);
+  color: var(--color-text);
+}
+
+.button-delete {
+  background-color: var(--vt-c-black);
+  color: var(--color-text);
+  border: 1px solid var(--danger-color);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.button-delete:hover {
+  background-color: var(--danger-color-hover);
+  color: var(--color-text);
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+  }
+}

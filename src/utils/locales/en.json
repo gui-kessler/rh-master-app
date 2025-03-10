@@ -1,0 +1,31 @@
+{
+    "employees": "Employees",
+    "employee": "Employee",
+    "name": "Name",
+    "email": "Email",
+    "shirtSize": "Shirt Size",
+    "shoeSize": "Shoe Size",
+    "home": "Home",
+    "homeDescription": "Welcome to the Vue 3 Employee Management System!",
+    "delete": "Delete",
+    "editEmployee": "Edit Employee",
+    "addEmployee": "Add Employee",
+    "cpf": "CPF",
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+        "fillAllFields": "Shoe size, shirt size, name, email and CPF are required",
+        "email": "Email must be between 3 and 100 characters",
+        "emailInvalid": "Email must be valid",
+        "cpf": "CPF must have 14 characters",
+        "shirtSize": "Invalid shirt size",
+        "shoeSize": "Shoe size must be between 28 and 52",
+        "name": "Name must be between 3 and 100 characters"
+    },
+    "search": "Search",
+    "snackbar": {
+        "employeeDeleted": "Employee deleted successfully",
+        "employeeAdded": "Employee added successfully",
+        "employeeUpdated": "Employee updated successfully"
+    }
+}
